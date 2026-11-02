@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquiry | Aroma Heaven Products & Sponsorship</title>
+<meta name="description" content="Enquire about Aroma Heaven products, catering, sponsorship.">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="header"><nav class="navbar"><div class="logo">Aroma Heaven</div>
+<ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="about.html">About</a></li><li><a href="enquiry.html" class="active">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul><button class="hamburger">☰</button></nav></header>
+<main class="container"><h1>Product Enquiry</h1>
+<form id="enquiryForm" class="contact-form" novalidate>
+<input type="text" id="eName" placeholder="Full Name" required><span class="error"></span>
+<input type="email" id="eEmail" placeholder="Email" required><span class="error"></span>
+<input type="tel" id="ePhone" placeholder="Phone (e.g. 0151234567)" pattern="[0-9]{10}" required><span class="error"></span>
+<select id="eType" required><option value="">Enquiry Type</option><option value="products">Products</option><option value="catering">Catering</option><option value="sponsorship">Sponsorship</option><option value="volunteer">Volunteer</option></select><span class="error"></span>
+<textarea id="eMessage" placeholder="Tell us what you need..." required minlength="20"></textarea><span class="error"></span>
+<button type="submit" class="btn">Submit Enquiry</button></form>
+<div id="enquiryResult" class="card" style="display:none;margin-top:1rem;"></div></main>
+<footer class="footer"><p>&copy; 2026 Aroma Heaven</p></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="js/main.js"></script><script src="js/forms.js"></script>
+</body></html>

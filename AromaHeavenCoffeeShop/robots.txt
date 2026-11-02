@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aromaheaven.netlify.app/sitemap.xml
